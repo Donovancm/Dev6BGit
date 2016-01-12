@@ -239,3 +239,8 @@ Changes not staged for commit:
 	modified:   logs/commitlog.txt
 
 no changes added to commit (use "git add" and/or "git commit -a")
+Checkout and commit
+M	logs/commitlog.txt
+M	mainstart.sh
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
