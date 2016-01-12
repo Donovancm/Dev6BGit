@@ -438,3 +438,85 @@ Date:   Tue Jan 12 18:36:00 2016 +0100
 D	#checkoutlocal.sh#
 M	logs/commitlog.txt
 Your branch is up-to-date with 'origin/master'.
+[master aad60c5] Change2
+ 1 file changed, 76 insertions(+)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	deleted:    #checkoutlocal.sh#
+	modified:   logs/commitlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commit aad60c50806ad1e0769884d54d4074d41add8138
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 20:01:56 2016 +0100
+
+    Change2
+
+commit 3e6caa192478cd0f8e627007959d9e636f403aa4
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 20:01:37 2016 +0100
+
+    Change2
+
+commit 414b0142fff4afa5748c3ac3888c4f767a28310e
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:59:04 2016 +0100
+
+    Testing3
+
+commit 4d2842858c89a49affd5b85879770fc45bc10b67
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:58:31 2016 +0100
+
+    Donovancm
+
+commit 5ad0a2649f9a638ce57c419dc464a270f719d080
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:55:37 2016 +0100
+
+    Testing2
+
+commit 2d7af1aa16052e7e7c6558794f1eb652d0a49a27
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:51:26 2016 +0100
+
+    testing
+
+commit dab5d7d23ad470ed61d3c2081768b40473d74a82
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:48:36 2016 +0100
+
+    Marto
+
+commit 172ae788a477bd25f232a4decd60ea35871c64af
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:46:20 2016 +0100
+
+    Changes
+
+commit defd65148cd764cc415a22a952664d2cd49ee156
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:38:23 2016 +0100
+
+    Changes
+
+commit 18d57330c1cb6d876eff981a35c66ace3ba271c9
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:37:47 2016 +0100
+
+    Changes
+
+commit 04f9c453766cc62a7617c363ecc5fd480ce985a6
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 18:36:00 2016 +0100
+
+    First Commit
+D	#checkoutlocal.sh#
+M	logs/commitlog.txt
+Your branch is up-to-date with 'origin/master'.
