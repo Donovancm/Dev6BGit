@@ -1,0 +1,3587 @@
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 1 second
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /home/donovan/integration/PlanetisJava-Connection/build/classes/model/Config.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 2 warnings
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] convertEventsToObject
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] calculateCoordinates
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] convertPositionsToObject
+    [junit] printPosList
+    [junit] printEvtList
+    [junit] Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.128 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] convertEventsToObject
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] calculateCoordinates
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] convertPositionsToObject
+    [junit] printPosList
+    [junit] printEvtList
+    [junit] ------------- ---------------- ---------------
+    [junit] Testcase: testConvertEventsToObject(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at controller.DataConverterTest.testConvertEventsToObject(DataConverterTest.java:49)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testSplitRdxPositionData(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testSplitRdxPositionData(DataConverterTest.java:99)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testSplitRdyPositionData(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testSplitRdyPositionData(DataConverterTest.java:111)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalculateCoordinates(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalculateCoordinates(DataConverterTest.java:123)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalcuteLongtitude(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalcuteLongtitude(DataConverterTest.java:136)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalculateLatitude(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalculateLatitude(DataConverterTest.java:149)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testConvertPositionsToObject(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testConvertPositionsToObject(DataConverterTest.java:74)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testPrintPosList(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testPrintPosList(DataConverterTest.java:87)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testPrintEvtList(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testPrintEvtList(DataConverterTest.java:62)
+    [junit] 
+    [junit] 
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.087 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+    [junit] Testcase: testGetCSVFolderPath(model.ConfigTest):	Caused an ERROR
+    [junit] model/Config : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: model/Config : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at model.ConfigTest.testGetCSVFolderPath(ConfigTest.java:49)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] warning: [options] bootstrap class path not set in conjunction with -source 1.5
+    [javac] warning: /home/donovan/integration/PlanetisJava-Connection/build/classes/model/Config.class: major version 52 is newer than 51, the highest major version supported by this compiler.
+    [javac]   It is recommended that the compiler be upgraded.
+    [javac] 2 warnings
+
+-post-compile-test-single:
+
+compile-test-single:
+
+-pre-test-run-single:
+
+-do-test-run-single:
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.096 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+    [junit] Testcase: testGetCSVFolderPath(model.ConfigTest):	Caused an ERROR
+    [junit] model/Config : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: model/Config : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at model.ConfigTest.testGetCSVFolderPath(ConfigTest.java:49)
+    [junit] 
+    [junit] 
+
+-post-test-run-single:
+
+test-single:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] convertEventsToObject
+    [junit] calculateCoordinates
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] convertPositionsToObject
+    [junit] printPosList
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] printEvtList
+    [junit] Tests run: 9, Failures: 0, Errors: 9, Skipped: 0, Time elapsed: 0.118 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] convertEventsToObject
+    [junit] calculateCoordinates
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] convertPositionsToObject
+    [junit] printPosList
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] printEvtList
+    [junit] ------------- ---------------- ---------------
+    [junit] Testcase: testConvertEventsToObject(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at controller.DataConverterTest.testConvertEventsToObject(DataConverterTest.java:49)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalculateCoordinates(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalculateCoordinates(DataConverterTest.java:123)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalcuteLongtitude(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalcuteLongtitude(DataConverterTest.java:136)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testCalculateLatitude(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testCalculateLatitude(DataConverterTest.java:149)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testConvertPositionsToObject(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testConvertPositionsToObject(DataConverterTest.java:74)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testPrintPosList(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testPrintPosList(DataConverterTest.java:87)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testSplitRdxPositionData(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testSplitRdxPositionData(DataConverterTest.java:99)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testSplitRdyPositionData(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testSplitRdyPositionData(DataConverterTest.java:111)
+    [junit] 
+    [junit] 
+    [junit] Testcase: testPrintEvtList(controller.DataConverterTest):	Caused an ERROR
+    [junit] controller/DataConverter
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverter
+    [junit] 	at controller.DataConverterTest.testPrintEvtList(DataConverterTest.java:62)
+    [junit] 
+    [junit] 
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.105 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+    [junit] Testcase: testGetCSVFolderPath(model.ConfigTest):	Caused an ERROR
+    [junit] model/Config : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: model/Config : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at model.ConfigTest.testGetCSVFolderPath(ConfigTest.java:49)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /usr/lib/jvm/java-7-oracle/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /home/donovan/jdk1.8.0_65/bin/bin/java
+Error: JAVA_HOME is not defined correctly.
+  We cannot execute /home/donovan/jdk1.8.0_65/bin/bin/java
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+    [junit] Testsuite: model.ConfigTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] model/ConfigTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: model/ConfigTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+    [javac] javac: invalid target release: 1.8
+    [javac] Usage: javac <options> <source files>
+    [javac] use -help for a list of possible options
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] calculateCoordinates
+    [junit] 51.41313529749846, 5.43213700964251
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] printEvtList
+    [junit] printPosList
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] convertEventsToObject
+    [junit] convertPositionsToObject
+    [junit] Tests run: 9, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.149 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] calculateCoordinates
+    [junit] 51.41313529749846, 5.43213700964251
+    [junit] calcuteLongtitude
+    [junit] calculateLatitude
+    [junit] printEvtList
+    [junit] printPosList
+    [junit] splitRdxPositionData
+    [junit] splitRdyPositionData
+    [junit] convertEventsToObject
+    [junit] convertPositionsToObject
+    [junit] ------------- ---------------- ---------------
+    [junit] ------------- Standard Error -----------------
+    [junit] java.io.FileNotFoundException: csvFiles/Events.csv (No such file or directory)
+    [junit] 	at java.io.FileInputStream.open0(Native Method)
+    [junit] 	at java.io.FileInputStream.open(FileInputStream.java:195)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+    [junit] 	at java.io.FileReader.<init>(FileReader.java:58)
+    [junit] 	at controller.DataConverter.convertEventsToObject(DataConverter.java:32)
+    [junit] 	at controller.DataConverterTest.testConvertEventsToObject(DataConverterTest.java:50)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:497)
+    [junit] java.io.FileNotFoundException: csvFiles/Events.csv (No such file or directory)
+    [junit] 	at java.io.FileInputStream.open0(Native Method)
+    [junit] 	at java.io.FileInputStream.open(FileInputStream.java:195)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+    [junit] 	at java.io.FileReader.<init>(FileReader.java:58)
+    [junit] 	at controller.DataConverter.convertEventsToObject(DataConverter.java:32)
+    [junit] 	at controller.DataConverterTest.testConvertEventsToObject(DataConverterTest.java:50)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:497)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1165)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1016)
+    [junit] java.io.FileNotFoundException: home/donovan/csvFiles/Positions.csv (No such file or directory)
+    [junit] 	at java.io.FileInputStream.open0(Native Method)
+    [junit] 	at java.io.FileInputStream.open(FileInputStream.java:195)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+    [junit] 	at java.io.FileReader.<init>(FileReader.java:58)
+    [junit] 	at controller.DataConverter.convertPositionsToObject(DataConverter.java:90)
+    [junit] 	at controller.DataConverterTest.testConvertPositionsToObject(DataConverterTest.java:75)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:497)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1165)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1016)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1165)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1016)
+    [junit] java.io.FileNotFoundException: home/donovan/csvFiles/Positions.csv (No such file or directory)
+    [junit] 	at java.io.FileInputStream.open0(Native Method)
+    [junit] 	at java.io.FileInputStream.open(FileInputStream.java:195)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:138)
+    [junit] 	at java.io.FileInputStream.<init>(FileInputStream.java:93)
+    [junit] 	at java.io.FileReader.<init>(FileReader.java:58)
+    [junit] 	at controller.DataConverter.convertPositionsToObject(DataConverter.java:90)
+    [junit] 	at controller.DataConverterTest.testConvertPositionsToObject(DataConverterTest.java:75)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+    [junit] 	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+    [junit] 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+    [junit] 	at java.lang.reflect.Method.invoke(Method.java:497)
+    [junit] 	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:45)
+    [junit] 	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:15)
+    [junit] 	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:42)
+    [junit] 	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:20)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:263)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:68)
+    [junit] 	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:47)
+    [junit] 	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:231)
+    [junit] 	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:60)
+    [junit] 	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:229)
+    [junit] 	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:50)
+    [junit] 	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:222)
+    [junit] 	at org.junit.internal.runners.statements.RunBefores.evaluate(RunBefores.java:28)
+    [junit] 	at org.junit.internal.runners.statements.RunAfters.evaluate(RunAfters.java:30)
+    [junit] 	at org.junit.runners.ParentRunner.run(ParentRunner.java:300)
+    [junit] 	at junit.framework.JUnit4TestAdapter.run(JUnit4TestAdapter.java:39)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.run(JUnitTestRunner.java:532)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.launch(JUnitTestRunner.java:1165)
+    [junit] 	at org.apache.tools.ant.taskdefs.optional.junit.JUnitTestRunner.main(JUnitTestRunner.java:1016)
+    [junit] ------------- ---------------- ---------------
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.136 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+
+-post-compile-test-single:
+
+compile-test-single:
+
+-pre-test-run-single:
+
+-do-test-run-single:
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+
+-post-test-run-single:
+
+test-single:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test-single:
+
+-do-compile-test-single:
+    [javac] Compiling 1 source file to /home/donovan/integration/PlanetisJava-Connection/build/test/classes
+
+-post-compile-test-single:
+
+compile-test-single:
+
+-pre-test-run-single:
+
+-do-test-run-single:
+    [junit] Testsuite: model.ConfigTest
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 0.092 sec
+    [junit] 
+    [junit] ------------- Standard Output ---------------
+    [junit] SetupClass Config is executing
+    [junit] setUp Config is executing
+    [junit] getCSVFolderPath
+    [junit] tearDownClass Config is executing
+    [junit] ------------- ---------------- ---------------
+
+-post-test-run-single:
+
+test-single:
+
+BUILD SUCCESSFUL
+Total time: 2 seconds

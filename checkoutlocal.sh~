@@ -1,0 +1,12 @@
+#!/bin/bash
+cd /home/donovan/integration/PlanetisJava-Connection
+git remote add origin git@localhost:Myproject 
+git fetch
+git checkout master
+git add -A
+git commit -a
+git status
+#git remote add origin git@localhost:Myproject
+git push 
+git status
+cd /home/donovan/integration

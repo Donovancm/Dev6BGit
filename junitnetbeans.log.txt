@@ -1,0 +1,155 @@
+Buildfile: /home/donovan/integration/PlanetisJava-Connection/build.xml
+
+-pre-init:
+
+-init-private:
+
+-init-user:
+
+-init-project:
+
+-init-macrodef-property:
+
+-do-init:
+
+-post-init:
+
+-init-check:
+
+-init-ap-cmdline-properties:
+
+-init-macrodef-javac-with-processors:
+
+-init-macrodef-javac-without-processors:
+
+-init-macrodef-javac:
+
+-init-macrodef-test-impl:
+
+-init-macrodef-junit-init:
+
+-init-macrodef-junit-single:
+
+-init-test-properties:
+
+-init-macrodef-junit-batch:
+
+-init-macrodef-junit:
+
+-init-macrodef-junit-impl:
+Trying to override old definition of task http://www.netbeans.org/ns/j2se-project/3:test-impl
+
+-init-macrodef-testng:
+
+-init-macrodef-testng-impl:
+
+-init-macrodef-test:
+
+-init-macrodef-junit-debug:
+
+-init-macrodef-junit-debug-batch:
+
+-init-macrodef-junit-debug-impl:
+
+-init-macrodef-test-debug-junit:
+
+-init-macrodef-testng-debug:
+
+-init-macrodef-testng-debug-impl:
+
+-init-macrodef-test-debug-testng:
+
+-init-macrodef-test-debug:
+
+-init-debug-args:
+
+-init-macrodef-nbjpda:
+
+-init-macrodef-debug:
+
+-init-macrodef-java:
+
+-init-presetdef-jar:
+
+-init-ap-cmdline-supported:
+
+-init-ap-cmdline:
+
+init:
+
+-deps-jar-init:
+   [delete] Deleting: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+deps-jar:
+
+-warn-already-built-jar:
+[propertyfile] Updating property file: /home/donovan/integration/PlanetisJava-Connection/build/built-jar.properties
+
+-check-automatic-build:
+
+-clean-after-automatic-build:
+
+-verify-automatic-build:
+
+-pre-pre-compile:
+
+-pre-compile:
+
+-copy-persistence-xml:
+
+-compile-depend:
+
+-do-compile:
+
+-post-compile:
+
+compile:
+
+-pre-pre-compile-test:
+
+-pre-compile-test:
+
+-compile-test-depend:
+
+-do-compile-test:
+
+-post-compile-test:
+
+compile-test:
+
+-pre-test-run:
+
+-do-test-run:
+    [junit] Testsuite: controller.DataConverterTest
+    [junit] Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0 sec
+    [junit] 
+    [junit] Null Test: 	Caused an ERROR
+    [junit] controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] java.lang.UnsupportedClassVersionError: controller/DataConverterTest : Unsupported major.minor version 52.0
+    [junit] 	at java.lang.ClassLoader.defineClass1(Native Method)
+    [junit] 	at java.lang.ClassLoader.defineClass(ClassLoader.java:800)
+    [junit] 	at java.security.SecureClassLoader.defineClass(SecureClassLoader.java:142)
+    [junit] 	at java.net.URLClassLoader.defineClass(URLClassLoader.java:449)
+    [junit] 	at java.net.URLClassLoader.access$100(URLClassLoader.java:71)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:361)
+    [junit] 	at java.net.URLClassLoader$1.run(URLClassLoader.java:355)
+    [junit] 	at java.security.AccessController.doPrivileged(Native Method)
+    [junit] 	at java.net.URLClassLoader.findClass(URLClassLoader.java:354)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:425)
+    [junit] 	at sun.misc.Launcher$AppClassLoader.loadClass(Launcher.java:308)
+    [junit] 	at java.lang.ClassLoader.loadClass(ClassLoader.java:358)
+    [junit] 	at java.lang.Class.forName0(Native Method)
+    [junit] 	at java.lang.Class.forName(Class.java:195)
+    [junit] 
+    [junit] 
+
+test-report:
+
+-post-test-run:
+
+-test-browse:
+
+test:
+
+BUILD SUCCESSFUL
+Total time: 1 second
