@@ -226,3 +226,16 @@ M	checkoutlocal.sh
 M	logs/commitlog.txt
 M	logs/dependencieslog.txt
 Your branch is up-to-date with 'origin/master'.
+[master dab5d7d] Marto
+ 3 files changed, 47 insertions(+), 1 deletion(-)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   logs/commitlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
