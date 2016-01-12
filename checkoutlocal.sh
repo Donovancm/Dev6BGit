@@ -1,10 +1,13 @@
 #!/bin/bash
-cd /home/donovan/integration/PlanetisJava-Connection
-git fetch
-git checkout connection
-git add -A
-git commit -a "Changes"
+#if [$# -gt 1 ] || [ $# -lt 1 ] ; then
+#echo "Usage: ./checkoutlocal.sh [Commit message]"
+#exit
+#else
+#echo "Checkout and commit" 
+git checkout master
+git add .
+git commit -m "Changes"
 git status
-git push origin connection
-git status
-cd /home/donovan/integration
+git push origin master
+git log
+#fi

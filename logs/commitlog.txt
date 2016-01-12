@@ -63,3 +63,64 @@ Changes to be committed:
 	new file:   test/controller/DataConverterTest.java
 	new file:   test/model/ConfigTest.java
 
+M	checkoutlocal.sh
+Your branch is up-to-date with 'origin/master'.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   checkoutlocal.sh
+	modified:   logs/commitlog.txt
+
+M	checkoutlocal.sh
+M	logs/commitlog.txt
+Your branch is up-to-date with 'origin/master'.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   checkoutlocal.sh
+	modified:   logs/commitlog.txt
+
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   checkoutlocal.sh
+	modified:   logs/commitlog.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   logs/commitlog.txt
+
+Usage: ./checkoutlocal.sh [Commit message]
+Usage: ./checkoutlocal.sh [Commit message]
+Usage: ./checkoutlocal.sh [Commit message]
+M	checkoutlocal.sh
+M	logs/commitlog.txt
+Your branch is up-to-date with 'origin/master'.
+On branch master
+Your branch is up-to-date with 'origin/master'.
+
+Changes to be committed:
+  (use "git reset HEAD <file>..." to unstage)
+
+	modified:   checkoutlocal.sh
+	modified:   logs/commitlog.txt
+
+commit 04f9c453766cc62a7617c363ecc5fd480ce985a6
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 18:36:00 2016 +0100
+
+    First Commit
+M	checkoutlocal.sh
+M	logs/commitlog.txt
+Your branch is up-to-date with 'origin/master'.
