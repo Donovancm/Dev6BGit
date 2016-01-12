@@ -185,3 +185,44 @@ M	checkoutlocal.sh
 M	logs/commitlog.txt
 M	mainstart.sh
 Your branch is up-to-date with 'origin/master'.
+[master 172ae78] Changes
+ 3 files changed, 44 insertions(+), 8 deletions(-)
+On branch master
+Your branch is ahead of 'origin/master' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   logs/commitlog.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+commit 172ae788a477bd25f232a4decd60ea35871c64af
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:46:20 2016 +0100
+
+    Changes
+
+commit defd65148cd764cc415a22a952664d2cd49ee156
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:38:23 2016 +0100
+
+    Changes
+
+commit 18d57330c1cb6d876eff981a35c66ace3ba271c9
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 19:37:47 2016 +0100
+
+    Changes
+
+commit 04f9c453766cc62a7617c363ecc5fd480ce985a6
+Author: Donovancm <donovan.dcm@gmail.com>
+Date:   Tue Jan 12 18:36:00 2016 +0100
+
+    First Commit
+Checkout and commit
+M	checkoutlocal.sh
+M	logs/commitlog.txt
+M	logs/dependencieslog.txt
+Your branch is up-to-date with 'origin/master'.

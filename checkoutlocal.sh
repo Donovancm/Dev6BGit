@@ -1,6 +1,6 @@
 #!/bin/bash
 if [$# -gt 1 ] || [ $# -lt 1 ] ; then
-echo "Usage: ./checkoutlocal.sh [Commit message]"
+#
 exit
 else
 echo "Checkout and commit" 
