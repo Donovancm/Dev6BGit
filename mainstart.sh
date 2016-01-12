@@ -8,7 +8,8 @@ fi
 #Git checking out
 read -p "Commit and push to local repository? [y/N]" answerB
 if [ $answerB = "y" ] ; then
-./checkoutlocal.sh >> logs/commitlog.txt
+read -p "Add commit message " commitmessage
+./checkoutlocal.sh "$commitmessage" >> logs/commitlog.txt
 fi
 #Junit Test Netbeans
 read -p "Start unit Test [y/N] " answerC
