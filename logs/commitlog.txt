@@ -244,3 +244,28 @@ M	logs/commitlog.txt
 M	mainstart.sh
 Your branch is ahead of 'origin/master' by 1 commit.
   (use "git push" to publish your local commits)
+[master 4d28428] Donovancm
+ 3 files changed, 19 insertions(+), 1 deletion(-)
+ create mode 100755 #checkoutlocal.sh#
+On branch master
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git checkout -- <file>..." to discard changes in working directory)
+
+	modified:   logs/commitlog.txt
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+
+	.#checkoutlocal.sh
+
+no changes added to commit (use "git add" and/or "git commit -a")
+Checkout and commit
+D	#checkoutlocal.sh#
+M	checkoutlocal.sh
+M	logs/commitlog.txt
+Your branch is ahead of 'origin/master' by 2 commits.
+  (use "git push" to publish your local commits)

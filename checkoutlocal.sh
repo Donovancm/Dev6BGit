@@ -6,8 +6,8 @@ else
 echo "Checkout and commit" 
 git checkout master
 git add *
-git commit -am "$1"
+git commit -m "$1"
 git status
-git push 
-git log >> commitlog.txt
+git push origin master
+git log
 fi
